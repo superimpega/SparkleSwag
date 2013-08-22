@@ -1,0 +1,1 @@
+API.on('chat', function(data) { if (data['fromID'] == '50aeab723e083e14a8f50213') $('.chat-id-' + data['chatID']).attr('style','background-image:url(https://raw.github.com/Maxorq/LastPlug/c75755255596c8e2f35fc087f6abfc2a6d875adf/img/sparkle.gif);'); })
